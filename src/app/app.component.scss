@@ -1,0 +1,17 @@
+button{
+ padding: 10px;
+ color:white;
+ margin: 5px;
+ background-color: #4a90e2;
+ border-radius: 6px;
+ border-color: transparent;
+ font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
+}
+button:active {
+    border-color: transparent;
+    border-width: 0px
+}
