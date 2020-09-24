@@ -6,6 +6,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+ <p>This is the counter</p>
+ <p *ngIf="!counterParent">Empty</p>
  <p *ngIf="counterParent">{{ counterParent }}</p>
 </body>
 </html>

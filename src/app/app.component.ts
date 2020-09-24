@@ -7,13 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   counter: number= 0;
-
+  bookList: Array<string> = ['one', 'two', 'three', 'four', 'five'];
+  isIncrementClicked: boolean;
   ngOnInit(){
    console.log('inicio')
   }
   
   increment(){
    this.counter++;
+   this.isIncrementClicked =true;
   }
   
   decrement(){
